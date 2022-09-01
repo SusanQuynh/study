@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: mydiv;
+    animation-duration: 10s;
+    border-radius: 16px 10px dashed black ;
+}
+@keyframes mydiv{
+    0% {background-color: red;}
+    12.5% {background-color: aquamarine;
+        width: 200px;
+        }
+    25% {background-color: green;
+        width: 300px;
+        }
+    50% {background-color: blue;
+        width: 400px;
+        border-radius: 16px;}
+    37.5%{background-color: pink;
+        width: 500px;
+        }
+    75% {background-color: bisque;
+        width: 600px;
+        }
+    100% {background-color: cyan;
+        width:  700px;
+        }
+    }

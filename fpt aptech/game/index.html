@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gameScore.js"></script>
+</head>
+<body onload="startGame();">
+    <table>
+            <tr>
+                <td></td>
+                <td><input type="button" value="UP"     onmousedown="moveup()"
+                                                        onmouseup="clearmove()"
+                                                        ontouchstart="moveup()" > 
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="LEFT" onmousedown="moveleft()"
+                                                        onmouseup="clearmove()"
+                                                        ontouchstart="moveleft()" >
+                </td>
+                <td></td>
+                <td><input type="button" value="RIGHT"   onmousedown="moveright()"
+                                                        onmouseup="clearmove()"
+                                                        ontouchstart="moveright()" > 
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="button" value="DOWN"  onmousedown="movedown()"
+                                                        onmouseup="clearmove()"
+                                                        ontouchstart="movedown()" >
+                </td>
+                <td></td>
+            </tr>             
+    </table>
+                      
+</body>
+</html>
