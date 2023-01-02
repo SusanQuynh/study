@@ -1,0 +1,34 @@
+	>>> Bảng quảng cáo dịch vụ:
+	+ Số khu vực (Số KV)
+	+ Tên khu vực (Tên KV)
+	+ Địa điểm (Địa điểm KV)
+	+ Mã dịch vụ (Mã DV)
+	+ Tên dịch vụ (Tên DV
+	+ Đơn giá (Giá)
+>>> Bảng ưu đãi theo giá dịch vụ:
+	+ Mức ưu đãi của dịch vụ (Mức ưu đãi)
+	+ Tỉ lệ ưu đãi (...)
+>>> Thể thành viên:
+	+ Họ tên thành viên (Tên TV)
+	+ Địa chỉ thành viên (ĐC)
+	+ Mức ưu đãi của/dảnh cho thành viên (Mức ưu đãi TV)
+	+ Ngày cấp thẻ thành viên (Ngày cấp)
+	+ Số thẻ thành viên (Số thẻ TV)
+>>> Phiếu sử dụng dịch vụ:
+	+ Tên dịch vụ sử dụng (Tên DV)
+	+ Số phiếu sử dụng dịch vụ (Số phiếu)
+	+ Số khu vực dịch vụ (Số KV) 
+	+ Số thẻ (...)
+	+ Ngày sử dụng phiếu (Thời hạn) / Thời hạn sử dụng phiếu (thời hạn)
+
+> Động từ:
++ Sử dụng:
+	- Ai sử dụng: Thành viên (thực thể)
+	- Sử dụng ở đâu: Khu vực (thực thể)
+	- Sử dụng cái gì: Dịch vụ (thực thể)
+	- Bằng cách nào: Phiếu sử dụng dịch vụ (thuộc tính)
+	- Sử dụng khi nào: Ngày, giờ... (thuộc tính)
++ Cấp:
+	- Cấp cho ai: Thành viên (thực thể)
+	- Cấp cái gì: Thẻ thành viên (thực thể)
+	- Thời điểm cấp: ngày cấp (thuộc tính)

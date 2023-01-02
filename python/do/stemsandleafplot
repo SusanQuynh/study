@@ -1,0 +1,23 @@
+import sys
+import stemgraphic 
+import random
+import matplotlib.pyplot as plt
+i=1
+datalist=[]
+stems=[]
+while i<=10:
+    data=random.randint(1,99)
+    datalist.append(data)
+    i+=1
+print(datalist)
+stemgraphic.stem_graphic(datalist,scale=10)
+for i in range (len(datalist)):
+   stems= (datalist[i]- (datalist[i]%10)/10)
+
+plt.ylabel('Data') # for label at y-axis
+
+plt.xlabel('stems') # for label at x-axis
+
+plt.xlim(0, 10) # limit of the values at x axis
+
+plt.stem(stems, datalist) # required plot
